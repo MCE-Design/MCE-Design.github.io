@@ -4133,6 +4133,12 @@ input, select, textarea {
 
 	}
 
+  @media screen and (max-width: 540px) {
+    p.skills {
+      justify-content: space-between;
+    }
+  }
+
 	@media screen and (max-width: 480px) {
 
 		#footer .inner .copyright li {
@@ -4146,6 +4152,9 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
+    p.skills {
+      justify-content: space-between;
+    }
 	}
 
 	@media screen and (max-width: 360px) {
@@ -4154,10 +4163,17 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+    p.skills {
+      justify-content: space-between;
+    }
 	}
 
+p.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
 [class^=devicon-], [class*=" devicon-"] {
   display: inline-block;
-  font-size: 3.5em;
-  margin: 0 10px 10px 0;
+  font-size: 4.5em;
+  margin: 0 5px 10px;
 }
