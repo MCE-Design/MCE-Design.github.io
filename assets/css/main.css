@@ -3820,7 +3820,8 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+        /* Changed because it looks a little odd right-aligned */
+				/* text-align: right; */
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
