@@ -4155,3 +4155,9 @@ input, select, textarea {
 		}
 
 	}
+
+[class^=devicon-], [class*=" devicon-"] {
+  display: inline-block;
+  font-size: 3.5em;
+  margin: 0 10px 10px 0;
+}
