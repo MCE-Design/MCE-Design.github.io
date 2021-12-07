@@ -4177,3 +4177,19 @@ p.skills {
   font-size: 4.5em;
   margin: 0 5px 10px;
 }
+
+.devicon-heroku-original.colored.override {
+  color: #430098;
+}
+
+.devicon-redux-plain.colored.override {
+  color: #764AEC;
+}
+
+.devicon-postgresql-plain.colored.override {
+  color: #019bc6;
+}
+
+.devicon-php-plain.colored.override {
+  color: #777BB3;
+}
