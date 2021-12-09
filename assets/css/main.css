@@ -4193,3 +4193,23 @@ p.skills {
 .devicon-php-plain.colored.override {
   color: #777BB3;
 }
+
+.icon.solid.fa-file-download{
+  display: block;
+  position: relative;
+  padding: 0 0 0 3.25em;
+}
+
+.icon.solid.fa-file-download::before {
+  border-radius: 100%;
+  border: solid 2px rgba(255, 255, 255, 0.125);
+  display: inline-block;
+  font-size: 1em;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.4em;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 2.5em;
+}
