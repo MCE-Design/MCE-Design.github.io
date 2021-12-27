@@ -4213,3 +4213,13 @@ p.skills {
   top: 0;
   width: 2.5em;
 }
+
+.educationBlock {
+  display: flex;
+  align-items: center;
+}
+
+.educationBadge {
+  margin-right: 20px;
+  width: 75px;
+}
